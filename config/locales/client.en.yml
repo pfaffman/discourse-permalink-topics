@@ -1,0 +1,7 @@
+en:
+  js:
+    topic_permalink:
+      title: "Topic Permalinks"
+      prefix: "Permalink Prefix"
+      link_text: "Copy this"
+      link_label: "Pretty Link"
