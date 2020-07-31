@@ -80,7 +80,7 @@ after_initialize do
       permalink = SiteSetting.permalink_topics_enabled && self.category.custom_fields['category_permalink']
       :permalink_topics_enabled && permalink
     end
-  
+
     after_update do
       create_topic_permalink
     end
